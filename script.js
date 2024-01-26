@@ -141,9 +141,6 @@ function lightModeProperties() {
 
 //INITIALISE UI
 function init() {
-  //initialise dark-mode variable to false;
-  //darkMode = true -> dark mode enable karna h 
-  //darMode = false -> light mode enable karna h 
   darkMode = true;
 
   const value = localStorage.getItem("dark-mode");
